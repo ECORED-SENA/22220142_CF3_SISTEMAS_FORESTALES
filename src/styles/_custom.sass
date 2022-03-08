@@ -1,0 +1,89 @@
+// Fondo para videos // 
+.bg-video
+  border-radius: 20px
+  background-image: urL('../assets/curso/bg-video.svg')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+// Fondo para videos // 
+
+// Color numero -- titulo //
+.titulo-principal.color-acento-contenido
+  span
+    color: white !important
+// Color numero -- titulo //
+
+// Colores de fonodo personalizados //
+.bg--1-claro
+  background-color: #ABE8C7 !important
+.bg--1-claro-2
+  background-color: #D5F3E3 
+.bg--3-claro
+  background-color: #fcefe0 !important
+.bg--4-claro
+    background-color: #FCE2DF
+
+
+// Colores de fonodo personalizados //
+
+// Fondo tarjeta compopnente //
+.tarjeta-componente
+  background-image: url('../assets/curso/bg-tarjeta-componente.svg')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+// Fondo tarjeta compopnente //
+
+// Tarjetas con icono hover // 
+.tarjeta-icono
+  &:hover
+    transform: scale(1.1) 
+    transition: transform .4s ease-in-out
+    .tarjeta-icono__icono
+      img:first-child
+        opacity: 0
+      img:last-child
+        opacity: 1
+  &__icono
+    width: 100%
+    min-height: 103px
+    position: relative
+    img
+      transition: opacity .4s ease-in-out
+      position: absolute
+      width: 102px 
+    img:first-child
+      opacity: 1
+    img:last-child
+      opacity: 0
+// Tarjetas con icono hover // 
+
+
+//Tarjetas img up//
+.tarjetas-img-up
+  overflow: hidden
+  position: relative
+  &:hover
+    .tarjetas-img-up__img
+      bottom: 0
+
+  &__img
+    position: absolute
+    bottom: -200%
+    left: 0
+    width: 100%
+    height: 100%
+    object-fit: cover
+    object-position: center
+    transition: bottom .4s ease-in-out
+//Tarjetas img up//
+
+//Cambio de botones Carrousel//
+.carousel-control-prev, .carousel-control-next
+  background-color: transparent !important
+.carousel-control-prev-icon
+  background-image: url('../assets/curso/flecha-izquierda.svg')
+.carousel-control-next-icon
+  background-image: url('../assets/curso/flecha-derecha.svg')
+//Cambio de botones Carrousel// 
+
