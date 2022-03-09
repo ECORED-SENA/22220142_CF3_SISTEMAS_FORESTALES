@@ -23,116 +23,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Control de calidad de la información',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: 'Verificación de topologías',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo: 'Comprobación información atributiva',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
+            titulo: 'Ajustes de Información',
+            hash: 't_1_3',
           },
         ],
       },
@@ -140,100 +50,36 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Presentación de resultados',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Composición de mapas',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
+            titulo: 'Presentación de Informes',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Motion + Presentador',
+            titulo: 'Empaquetado del proyecto',
             hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Fundamentación Textil',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
           },
         ],
       },
     ],
     subMenu: [
-      {
-        icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
-        nombreRuta: 'sintesis',
-      },
+      // {
+      //   icono: 'fas fa-sitemap',
+      //   titulo: 'Sintesis',
+      //   nombreRuta: 'sintesis',
+      // },
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
@@ -270,139 +116,186 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Alonso, D. (2021). Cómo empaquetar mapas en QGIS 3 para compartir nuestros proyectos. Mappinggis.',
+      link: 'https://mappinggis.com/2016/07/empaquetar-mapas-qgis/',
+    },
+    {
+      referencia:
+        'Ariza-López, Francisco & García-Balboa, José. (2018). Normas sobre la calidad en información geográfica (ISO 19113, ISO 19114, ISO 19138, ISO 2859 e ISO 3951). Mapping, ISSN 1131-9100. 68-83.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.researchgate.net/publication/28209111_Normas_sobre_la_calidad_en_informacion_geografica_ISO_19113_ISO_19114_ISO_19138_ISO_2859_e_ISO_3951',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Ariza-López F.J., García-Balboa, J.L., Rodríguez-Avi, J., Robledo J., (2018). Guía general para la evaluación de la exactitud posicional de datos espaciales. Proyecto: Propuesta de adopción de metodologías y procedimientos empleados para la evaluación de la calidad de la información geográfica para los Estados Miembros del IPGH (Proyectos Panamericanos de Asistencia Técnica –2018 "Agenda del IPGH 2010-2020"). ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'http://publicaciones.ipgh.org/publicaciones-ocasionales/Guia_Evaluacion_Exactitud_Posicional_Datos_Espaciales.pdf',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Ariza, F. J., & Rodríguez, A. F. (2019). Calidad en datos geográficos, geoservicios y productores de datos: análisis crítico. Revista Cartográfica, 97, 105–143.',
+      link: 'https://revistasipgh.org/index.php/rcar/article/download/178/185/',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Castro, A. (2014). La evaluación de la exactitud posicional de la información geográfica según los estándares en uso. Revista IPGH, 11.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.revistasipgh.org/index.php/rcar/article/download/478/496/',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Decreto 3851 de 2006. [Presidencia de la República de Colombia]. Por el cual se organiza un sistema de aseguramiento de la calidad, almacenamiento y consulta de la información básica colombiana y se dictan otras disposiciones. Noviembre 2 de 2006. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/1688890',
+    },
+    {
+      referencia: 'Esri (s.f). Fundamentos de topología.',
+      link:
+        'https://pro.arcgis.com/es/pro-app/latest/help/data/topologies/topology-basics.htm',
+    },
+    {
+      referencia: 'Icontec (2010). NTC 5043.',
+      link:
+        'https://e-collection-icontec-org.bdigital.sena.edu.co/pdfview/viewer.aspx?locale=es-ES&Q=D326B1BF0080B69E33CB031F00945AED&Req=',
+    },
+    {
+      referencia: 'IGAC (s.f). ¿Qué son los mapas?.',
+      link: 'https://www.igac.gov.co/es/contenido/que-son-los-mapas',
+    },
+    {
+      referencia: 'IGN (s.f.). Conceptos Cartográficos.',
+      link:
+        'https://www.ign.es/web/resources/cartografiaEnsenanza/conceptosCarto/descargas/Conceptos_Cartograficos_def.pdf',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Miguel, O.(2014).La evaluación de la exactitud posicional de la información geográfica según los estándares en uso. Revista cartográfica, 90, 81-96. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.revistasipgh.org/index.php/rcar/article/download/478/496/',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Arco',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'En un mapa, forma definida por una serie conectada de pares de coordenadas x, y únicos. Un arco puede ser recto o curvo.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Calidad',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Grado en el que un conjunto de características inherentes cumple con los requisitos',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Capa',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Una capa en los entornos de los Sistemas de Información Geográfica, es un fichero, o parte de un fichero, que contiene información espacial de una sola variable, pudiendo contener información espacial y temática.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Escala',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'La escala del mapa se define como la relación de proporcionalidad que existe entre una distancia medida en el terreno y su correspondiente medida en el mapa.',
     },
     {
-      termino: 'Moda',
+      termino: 'IDEAM',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Instituto de Hidrología, Meteorología y Estudios Ambientales',
     },
     {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+      termino: 'IGAC',
+      significado: 'Instituto Geográfico Agustín Codazzi',
     },
     {
-      termino: 'DIseño',
+      termino: 'Informacion Geografica',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Información relativa a fenómenos asociados implícita o explícitamente con una ubicación relativa a la Tierra',
     },
     {
-      termino: 'Tipología',
+      termino: 'Metadatos',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Los metadatos describen las características de los datos. Una forma sencilla de definirlos sería la siguiente: “los metadatos son datos acerca de los datos”. Estos proveen información (general o detallada) estructurada y organizada sobre un conjunto de datos, contienen elementos que describen su semántica, calidad, autor, modo de identificación, restricciones de uso, mantenimiento, sistema de referencia y contenido, entre otros.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Nodo',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'En una cobertura, el punto inicial o final de un arco, vinculado topológicamente a todos los arcos que se encuentran allí.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Segmento',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Describe a la porción de una recta que está delimitada por dos puntos',
     },
     {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'SGC',
+      significado: 'Servicio Geológico Colombiano',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Toponimia',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Aude al análisis y el significado de los nombres propios que denominan lugares.',
+    },
+    {
+      termino: 'Vertice',
+      significado:
+        'Uno de un conjunto de pares de coordenadas ordenadas x, y que define la forma de una línea o entidad poligonal.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Castro, A. (2014). La evaluación de la exactitud posicional de la información geográfica según los estándares en uso. Revista Cartográfica 90.',
+      tipo: 'Articulo',
+      link:
+        'https://www.revistasipgh.org/index.php/rcar/article/download/478/496/',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'IPGH. (2016). La calidad de la Información Geográfica en América Latina. Nosolosig.Com.',
+      tipo: 'Articulo',
+      link:
+        'https://www.nosolosig.com/noticias/713-la-calidad-de-la-informacion-geografica-en-america-latina',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+        'Mastergis. (2021). Diseñador de Impresión con QGIS [Video]. YouTube. ',
       tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      link: 'https://youtu.be/upBKtm5y0Gc',
+    },
+    {
+      texto:
+        'Silvherinformatica.  (2020). Corregir errores topológicos de capas vectoriales en QGIS 3x. [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=lMC1DBgLLMY',
+    },
+    {
+      texto:
+        'Alonso, D. (2021). Cómo empaquetar mapas en QGIS 3 para compartir nuestros proyectos. Mappinggis. ',
+      tipo: 'Articulo',
+      link: 'https://mappinggis.com/2016/07/empaquetar-mapas-qgis/',
+    },
+    {
+      texto:
+        'https://www.esri.com/ (2021). Tres representaciones fundamentales de capas de información geográfica. Arcgis.Com.',
+      tipo: 'Articulo',
+      link:
+        'https://resources.arcgis.com/es/help/getting-started/articles/026n0000000n000000.htm',
+    },
+    {
+      texto:
+        'Prieto, L. (2019). Generación de informes en QGIS (I). Asociación Geinnova. ',
+      tipo: 'Articulo',
+      link:
+        'https://geoinnova.org/blog-territorio/generacion-de-informes-en-qgis-i/',
+    },
+    {
+      texto: 'gabri. (2021). ¿Qué es un mapa? Acolita.com. ',
+      tipo: 'Articulo',
+      link: 'https://acolita.com/que-es-un-mapa/',
+    },
+    {
+      texto:
+        'Alonso, D. (2015). Cómo encontrar y corregir errores de topología en QGIS 3. Mappinggis.com.',
+      tipo: 'Articulo ',
+      link: 'https://mappinggis.com/2015/03/correccion-de-topologia-en-qgis/',
     },
   ],
   creditos: {
@@ -420,6 +313,29 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Jorge Eduardo Álava Arévalo',
+        cargo: 'Instructor',
+        centro:
+          'Centro Internacional de Producción Limpia Lope - Regional Nariño',
+      },
+      {
+        nombre: 'Adriana López',
+        cargo: 'Diseñadora Instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Paula Andrea Taborda Ruiz',
+        cargo: '',
+        centro: '',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
+      },
     ],
     desarrolloProducto: [
       {
@@ -429,18 +345,13 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Yuly Andrea Rey Quiñonez'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Camilo Andres Bolaño Rey',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

@@ -19,9 +19,8 @@
           img(src='@/assets/curso/1.svg' style='width: 30%').me-3
           p.mb-0(style='width: 60%')
             b El concepto de calidad en la información geográfica ha cobrado tanto valor en la actualidad, que la <em>International Organization for Standardization</em> (ISO) posee un grupo de normas contempladas dentro de la familia ISO 19100, que abordan estos tópicos de manera específica. 
-    .tarjeta-componente.p-4.mb-5
-
-      //todo Agregar componente de linea de tiempo modificado -- Preguntar a Andrea // 
+    .row.mb-5.justify-content-center
+      .col-lg-12(data-aos='zoom-in-up'): img(src='@/assets/curso/51.svg')
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-10
