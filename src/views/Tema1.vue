@@ -47,6 +47,7 @@
             .col-xl-9
               p.mb-0
                 b Para el caso de la estructuración de SIG para sistemas forestales y agroecológicos, por tratarse de proyectos de pequeña escala los errores en los datos pueden estar referidos a las relaciones entre objetos espaciales (Topología), información atributiva y a temas de precisión posicional, por lo cual su calidad estará enfocada principalmente en esos aspectos, claro está, sin desconocer la importancia que tiene la normalización en la calidad de la información geográfica.
+    Separador
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Verificación de topologías
     .row.mb-5
@@ -115,12 +116,12 @@
         .tarjeta.tarjetas-img-up.p-4.color-secundario.h-100.d-flex.align-items-center
           .tarjetas-img-up__img
             img(src='@/assets/curso/11.jpg')
-          p.text-center.p-3 En el caso que se tenga entidades de tipo lineal, por ejemplo, cuando se realiza la vectorización de redes como vías, ríos, etc., se puede enfrentar a la generación de arcos colgantes, y se pueden generar como consecuencia de un subtrazo también conocido como undershoot, por ejemplo en donde no hay conexión de nodos.
+          p.text-center.p-3 En el caso que se tenga entidades de tipo lineal, por ejemplo, cuando se realiza la vectorización de redes como vías, ríos, etc., se puede enfrentar a la generación de arcos colgantes, y se pueden generar como consecuencia de un subtrazo también conocido como <em>undershoot</em>, por ejemplo en donde no hay conexión de nodos.
       .col-lg-3
         .tarjeta.tarjetas-img-up.p-4.color-primario.h-100.d-flex.align-items-center
           .tarjetas-img-up__img
             img(src='@/assets/curso/12.jpg')
-          p.text-center.p-3 Cuando se generan arcos colgantes, se evidencia una superposición de líneas o sobretrazo en ingles denominado overshoot
+          p.text-center.p-3 Cuando se generan arcos colgantes, se evidencia una superposición de líneas o sobretrazo en ingles denominado <em>overshoot</em>
       .col-lg-3
         .tarjeta.tarjetas-img-up.p-4.color-acento-contenido.h-100.d-flex.align-items-center
           .tarjetas-img-up__img
@@ -134,10 +135,11 @@
     p.mb-5 Todo este tipo de errores que se pueden presentar, afectan la calidad de la información geográfica, por tal motivo antes de realizar análisis y generación final de productos es necesario solventarlos; algunos de estos errores no se pueden detectar a simple vista, por lo que es necesario acudir a herramientas que tienen los softwares SIG para facilitar el proceso.
     .row.mb-5.align-items-center.justify-content-center
       .col-lg-5: img(src='@/assets/curso/15.jpg')
-      .col-lg-5: p En el caso del software QGIS, cuenta con un complemento gratuito denominado comprobador de topología, el cual se puede instalar desde el menú principal en la pestaña “Complementos”, esta herramienta ayuda a realizar un análisis de la capa deseada y muestra los errores de acuerdo a la regla topológica que se selecciona.
+      .col-lg-5: p En el caso del <em>software</em> QGIS, cuenta con un complemento gratuito denominado comprobador de topología, el cual se puede instalar desde el menú principal en la pestaña “Complementos”, esta herramienta ayuda a realizar un análisis de la capa deseada y muestra los errores de acuerdo a la regla topológica que se selecciona.
         br
         br
         |Con el uso de esta herramienta, se pueden identificar los sectores donde haya errores y mediante un proceso de edición corregir para generar una información geográfica de calidad.
+    Separador
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Comprobación información atributiva
     p.mb-5 La información atributiva representa las características de las entidades geográficas, viene organizada en tablas denominadas tabla de atributos, las cuales están constituidas por filas y columnas; las filas se denominan registros y las columnas campos.
@@ -159,7 +161,7 @@
               .carousel-item.active
                 .row.justify-content-center.align-items-center.g-5
                   .col-lg-5
-                    p  Los campos pueden almacenar diferentes tipos de datos, números enteros, numero reales (decimales), textos entre otros. 
+                    p  Los campos pueden almacenar diferentes tipos de datos, números enteros, números reales (decimales), textos entre otros. 
                   .col-lg-6: img(src='@/assets/curso/16.png')
               .carousel-item
                 .row.justify-content-center.align-items-center.g-5
@@ -178,12 +180,12 @@
                     p Los tipos de campo Booleano se utilizan cuando la información del atributo corresponde a datos lógicos o binarios.
                       br
                       br
-                      |Los tipo Objeto binario (BLOB) aplican cuando la información atributiva de la entidad geográfica corresponde a datos almacenados como una secuencia larga de números binarios, son útiles para almacenar elementos, como imágenes o multimedia. 
+                      |Los tipos Objeto binario (BLOB) aplican cuando la información atributiva de la entidad geográfica corresponde a datos almacenados como una secuencia larga de números binarios, son útiles para almacenar elementos, como imágenes o multimedia. 
                   .col-lg-6: img(src='@/assets/curso/18.png')
               .carousel-item
                 .row.justify-content-center.align-items-center.g-5
                   .col-lg-5
-                    p Durante la realización de trabajos con SIG, es corriente errar cuando se registra información atributiva de una entidad, por ejemplo, si se estuvieran definiendo las coberturas y usos del suelo de una finca, textualmente un campo denominado “Pastos” y otro campo denominado “pastos”, corresponderían a la misma unidad, pero el software lo toma como dos unidades diferentes.  Desde el punto de vista cartográfico, las dos unidades son iguales, pero cuando se utiliza herramientas de análisis espacial, por ejemplo, herramientas de selección, los dos campos aparecen diferentes . 
+                    p Durante la realización de trabajos con SIG, es corriente errar cuando se registra información atributiva de una entidad, por ejemplo, si se estuvieran definiendo las coberturas y usos del suelo de una finca, textualmente un campo denominado “Pastos” y otro campo denominado “pastos”, corresponderían a la misma unidad, pero el <em>software</em> lo toma como dos unidades diferentes.  Desde el punto de vista cartográfico, las dos unidades son iguales, pero cuando se utiliza herramientas de análisis espacial, por ejemplo, herramientas de selección, los dos campos aparecen diferentes . 
                   .col-lg-6: img(src='@/assets/curso/19.png')
               .carousel-item
                 .row.justify-content-center.align-items-center.g-5
@@ -206,6 +208,7 @@
         button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
           span.carousel-control-next-icon(aria-hidden='true')
           span.visually-hidden Next
+    Separador
     #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3 Ajustes de Información
     .row.mb-5.align-items-center

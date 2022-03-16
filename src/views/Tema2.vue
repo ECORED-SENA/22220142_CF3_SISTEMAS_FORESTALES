@@ -53,6 +53,7 @@
       br
       br
       | Uno de los productos más usuales obtenidos a partir de un SIG, son los mapas, hecho por el cual se profundizará a continuación sobre este tema. 
+    Separador
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Composición de mapas
     p.mb-5 Según la Asociación Cartográfica Internacional un mapa es la representación convencional gráfica de fenómenos concretos o abstractos, localizados en la tierra o en cualquier parte del universo (IGN, s.f., p.11).  Esta representación, generalmente se realiza sobre un plano bidimensional, y conserva la posición relativa de su localización. 
@@ -74,7 +75,7 @@
           img(src='@/assets/curso/40.svg' alt='AvatarTop' style='width: 80px').mb-3
           h5 Catalogo de Objetos
           p Es importante destacar que cuando se trata de generación de cartografía oficial, cada entidad define la forma en la que se deben presentar los mapas; es una guía en donde definen los estilos, colores, tipos y tamaños de letras, tipos y tamaños de líneas, símbolos, etc., con los cuales se debe representar a cada uno de los elementos geográficos del mapa. 
-    p.mb-5 En el Software QGIS, en las propiedades de la capa (layer properties) se encuentra la ruta para configurar la simbología y etiquetas del mapa de la siguiente forma:
+    p.mb-5 En el <em>Software</em> QGIS, en las propiedades de la capa (<em>layer properties</em>) se encuentra la ruta para configurar la simbología y etiquetas del mapa de la siguiente forma:
     .row.mb-5.justify-content-center
       .col-lg-10
         PasosA.color-acento-contenido.mb-5(tipo="n")
@@ -95,7 +96,7 @@
           .row
             .col-md-6.mb-4.mb-md-0
               h5 Ventana de composición de mapas en QGIS 3.16
-              p En la interfase de composición se comienza a realizar la distribución espacial de los elementos del mapa, inicialmente se selecciona el tamaño de la página, el software brinda un amplio menú de tamaños, según las normas internacionales, o se puede configurar el tamaño deseado de acuerdo a las necesidades del trabajo.
+              p En la interfase de composición se comienza a realizar la distribución espacial de los elementos del mapa, inicialmente se selecciona el tamaño de la página, el <em>software</em> brinda un amplio menú de tamaños, según las normas internacionales, o se puede configurar el tamaño deseado de acuerdo a las necesidades del trabajo.
             .col-md-6
               figure
                 img(src='@/assets/curso/43.jpg', alt='Texto que describa la imagen')
@@ -105,7 +106,8 @@
                 img(src='@/assets/curso/44.jpg', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
               h5 Composición Final 
-              p Cuando se selecciona el  tamaño del papel deseado, se empieza a agregar las capas, la grilla de coordenadas, la rosa de los vientos, los símbolos, la leyenda hasta tener completo el mapa listo para impresión. En la mayoría de software SIG, la composición se puede exportar en diferentes formatos, siendo los más comunes PDF  y JPG. 
+              p Cuando se selecciona el  tamaño del papel deseado, se empieza a agregar las capas, la grilla de coordenadas, la rosa de los vientos, los símbolos, la leyenda hasta tener completo el mapa listo para impresión. En la mayoría de <em>software</em> SIG, la composición se puede exportar en diferentes formatos, siendo los más comunes PDF  y JPG. 
+    Separador
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Presentación de Informes
     .row.mb-5.align-items-center
@@ -117,11 +119,11 @@
           |Estos informes pueden elaborarse en cualquier procesador de texto, pero en la actualidad los softwares SIG también incorporan herramientas, que permiten de manera organizada y lógica presentar este tipo de información.
           br
           br
-          |En el Software QGIS 3.16, se ingresa a la barra de menús, en la pestaña “proyecto”, se encuentra la opción “Nuevo informe”, esta corresponde a la herramienta generador de informes, con la cual se puede ingresar y organizar la información que se requiera presentar. 
+          |En el <em>Software</em> QGIS 3.16, se ingresa a la barra de menús, en la pestaña “proyecto”, se encuentra la opción “Nuevo informe”, esta corresponde a la herramienta generador de informes, con la cual se puede ingresar y organizar la información que se requiera presentar. 
     .separador.mb-5
     #t_2_3.titulo-tercero.color-acento-contenido
       h2 2.3 Empaquetado del proyecto
-    p.mb-5 A medida que los usuarios de diferentes disciplinas utilizan y acceden cada vez más al uso de software SIG, se hace necesario tener una forma de compartir fácilmente la información generada en el software. Cada software genera un tipo de archivo, por ejemplo, un archivo de Microsoft Word tiene extensión .doc.; un archivo de Excel se guarda con extensión .xls, y es muy fácil compartir este archivo por cualquier medio electrónico y abrirlo en cualquier dispositivo. A continuación, se presenta la forma de empaquetado de la información en SIG. 
+    p.mb-5 A medida que los usuarios de diferentes disciplinas utilizan y acceden cada vez más al uso de <em>software</em> SIG, se hace necesario tener una forma de compartir fácilmente la información generada en el <em>software</em>. Cada <em>software</em> genera un tipo de archivo, por ejemplo, un archivo de Microsoft Word tiene extensión .doc.; un archivo de Excel se guarda con extensión .xls, y es muy fácil compartir este archivo por cualquier medio electrónico y abrirlo en cualquier dispositivo. A continuación, se presenta la forma de empaquetado de la información en SIG. 
     .tarjeta.bg--2-claro.p-5
       LineaTiempoC.color-acento-botones(text-small)
         .row(titulo="1")
@@ -129,7 +131,7 @@
             figure
               img(src='@/assets/curso/46.jpg', alt='Texto que describa la imagen')
           .col-md-12
-            p Los softwares SIG, también tienen su propia extensión de guardado de proyectos, el software ArcGis por ejemplo, genera archivos con extensión. mxd y QGIS genera archivos con extensión. qgz o .qgs, como se muestra en el siguiente ejemplo:
+            p Los softwares SIG, también tienen su propia extensión de guardado de proyectos, el <em>software</em> ArcGis por ejemplo, genera archivos con extensión. mxd y QGIS genera archivos con extensión. qgz o .qgs, como se muestra en el siguiente ejemplo:
         .row(titulo="2").align-items-center
           .col-md-6
             p Estos softwares, conectan capas (vectoriales o ráster) que están almacenadas en ficheros disponibles en la computadora personal y al momento de abrir el proyecto carga normalmente conservando las últimas ediciones realizadas.
@@ -153,7 +155,7 @@
               img(src='@/assets/curso/49.jpg', alt='Texto que describa la imagen')
         .row(titulo="5").align-items-center
           .col-md-6
-            p En el caso de QGIS, por ser software libre, incorpora complementos gratuitos que ayudan para la realización de este proceso; en la figura se puede apreciar dos opciones que se tienen para el empaquetado de los proyectos SIG. 
+            p En el caso de QGIS, por ser <em>software</em> libre, incorpora complementos gratuitos que ayudan para la realización de este proceso; en la figura se puede apreciar dos opciones que se tienen para el empaquetado de los proyectos SIG. 
           .col-md-6.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/50.jpg', alt='Texto que describa la imagen')
