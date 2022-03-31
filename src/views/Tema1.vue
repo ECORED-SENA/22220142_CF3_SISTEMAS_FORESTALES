@@ -110,7 +110,7 @@
         .col-lg-10
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/onzHJ0hSmjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/odYULq5qllo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mb-5
       .col-lg-3
         .tarjeta.tarjetas-img-up.p-4.color-secundario.h-100.d-flex.align-items-center
