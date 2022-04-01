@@ -327,8 +327,9 @@ export default {
       },
       {
         nombre: 'Paula Andrea Taborda Ruiz',
-        cargo: '',
-        centro: '',
+        cargo: 'Diseñadora instruccional',
+        centro:
+          'Centro de la Industria  la Empresa y los Servicios - Regional Huila',
       },
       {
         nombre: 'Jhon Jairo Rodríguez Pérez',
