@@ -75,11 +75,11 @@ export default {
       },
     ],
     subMenu: [
-      {
-        icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
-        nombreRuta: 'sintesis',
-      },
+      // {
+      //   icono: 'fas fa-sitemap',
+      //   titulo: 'Síntesis',
+      //   nombreRuta: 'sintesis',
+      // },
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
@@ -154,7 +154,8 @@ export default {
         'https://pro.arcgis.com/es/pro-app/latest/help/data/topologies/topology-basics.htm',
     },
     {
-      referencia: 'Icontec (2010). NTC 5043.',
+      referencia:
+        'Icontec (2010). NTC 5043.<br> <em>Nota: Apreciado Aprendiz, para la utilización del recurso de Legiscomex que se encuentra en el Sistema de Bibliotecas, es necesario el ingreso con sus datos de acceso (número de identificación en los campos de usuario y contraseña). Es importante que, ingrese primero a la biblioteca y posteriormente acceda con el enlace del recurso de Tipos de Carga, para que el sistema lo direccione al espacio correcto. </em>     ',
       link:
         'https://e-collection-icontec-org.bdigital.sena.edu.co/pdfview/viewer.aspx?locale=es-ES&Q=D326B1BF0080B69E33CB031F00945AED&Req=',
     },
@@ -183,7 +184,7 @@ export default {
     {
       termino: 'Calidad',
       significado:
-        'Grado en el que un conjunto de características inherentes cumple con los requisitos',
+        'Grado en el que un conjunto de características inherentes cumple con los requisitos.',
     },
     {
       termino: 'Capa',
@@ -198,7 +199,7 @@ export default {
     {
       termino: 'IDEAM',
       significado:
-        'Instituto de Hidrología, Meteorología y Estudios Ambientales',
+        'Instituto de Hidrología, Meteorología y Estudios Ambientales.',
     },
     {
       termino: 'IGAC',
@@ -207,7 +208,7 @@ export default {
     {
       termino: 'Informacion Geografica',
       significado:
-        'Información relativa a fenómenos asociados implícita o explícitamente con una ubicación relativa a la Tierra',
+        'Información relativa a fenómenos asociados implícita o explícitamente con una ubicación relativa a la Tierra.',
     },
     {
       termino: 'Metadatos',
@@ -222,11 +223,11 @@ export default {
     {
       termino: 'Segmento',
       significado:
-        'Describe a la porción de una recta que está delimitada por dos puntos',
+        'Describe a la porción de una recta que está delimitada por dos puntos.',
     },
     {
       termino: 'SGC',
-      significado: 'Servicio Geológico Colombiano',
+      significado: 'Servicio Geológico Colombiano.',
     },
     {
       termino: 'Toponimia',

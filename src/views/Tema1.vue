@@ -18,7 +18,7 @@
         .tarjeta.color-secundario.p-4.rounded-0.d-flex.align-items-center.flex-wrap.justify-content-center
           img(src='@/assets/curso/1.svg' style='width: 30%').me-3
           p.mb-0(style='width: 60%')
-            b El concepto de calidad en la información geográfica ha cobrado tanto valor en la actualidad, que la <em>International Organization for Standardization</em> (ISO) posee un grupo de normas contempladas dentro de la familia ISO 19100, que abordan estos tópicos de manera específica. 
+            b El concepto de calidad en la información geográfica ha cobrado tanto valor en la actualidad, que la International Organization for Standardization (ISO) posee un grupo de normas contempladas dentro de la familia ISO 19100, que abordan estos tópicos de manera específica. 
     .row.mb-5.justify-content-center
       .col-lg-12(data-aos='zoom-in-up'): img(src='@/assets/curso/51.svg')
 
@@ -42,9 +42,9 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-10
         .tarjeta.bg--1-claro.p-5.rounded-0.d-flex.position-relative
-          img(src='@/assets/curso/5.svg' style='position: absolute; top: -5%; left: 5%; width: 210px').d-none.d-xl-block
+          img(src='@/assets/curso/5.svg' style='position: ; top: -5%; left: 5%; width: 210px').d-none.d-xl-block
           .row.align-items-center.justify-content-end
-            .col-xl-9
+            .col-xl-11
               p.mb-0
                 b Para el caso de la estructuración de SIG para sistemas forestales y agroecológicos, por tratarse de proyectos de pequeña escala los errores en los datos pueden estar referidos a las relaciones entre objetos espaciales (Topología), información atributiva y a temas de precisión posicional, por lo cual su calidad estará enfocada principalmente en esos aspectos, claro está, sin desconocer la importancia que tiene la normalización en la calidad de la información geográfica.
     Separador
@@ -112,22 +112,22 @@
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/odYULq5qllo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mb-5
-      .col-lg-3
+      .col-xl-3.mb-3.mb-xl-0
         .tarjeta.tarjetas-img-up.p-4.color-secundario.h-100.d-flex.align-items-center
           .tarjetas-img-up__img
             img(src='@/assets/curso/11.jpg')
           p.text-center.p-3 En el caso que se tenga entidades de tipo lineal, por ejemplo, cuando se realiza la vectorización de redes como vías, ríos, etc., se puede enfrentar a la generación de arcos colgantes, y se pueden generar como consecuencia de un subtrazo también conocido como <em>undershoot</em>, por ejemplo en donde no hay conexión de nodos.
-      .col-lg-3
+      .col-xl-3.mb-3.mb-xl-0
         .tarjeta.tarjetas-img-up.p-4.color-primario.h-100.d-flex.align-items-center
           .tarjetas-img-up__img
             img(src='@/assets/curso/12.jpg')
-          p.text-center.p-3 Cuando se generan arcos colgantes, se evidencia una superposición de líneas o sobretrazo en ingles denominado <em>overshoot</em>
-      .col-lg-3
+          p.text-center.p-3 Cuando se generan arcos colgantes, se evidencia una superposición de líneas o sobretrazo en ingles denominado <em style="color: $color-sistema-texto !important">overshoot.</em>
+      .col-xl-3.mb-3.mb-xl-0
         .tarjeta.tarjetas-img-up.p-4.color-acento-contenido.h-100.d-flex.align-items-center
           .tarjetas-img-up__img
             img(src='@/assets/curso/13.jpg')
           p.text-center.p-3 Otro error típico, que se comete cuando se digitalizan elementos lineales es la creación de pseudonodos, en este caso no hay afectación de la geometría de la capa, pero si genera error cuando se realizan geoprocesos de análisis espacial. 
-      .col-lg-3
+      .col-xl-3.mb-3.mb-xl-0
         .tarjeta.tarjetas-img-up.p-4.color-acento-botones.h-100.d-flex.align-items-center
           .tarjetas-img-up__img
             img(src='@/assets/curso/14.jpg')
@@ -257,9 +257,9 @@
     .row.mb-5.justify-content-center.align-items-center
           .col-lg-10
             .tarjeta.color-acento-botones.p-5.rounded-0.d-flex.position-relative
-              img(src='@/assets/curso/30.svg' style='position: absolute; top: -1%; left: 3%; width: 310px').d-none.d-xl-block
+              img(src='@/assets/curso/30.svg' style='position: ; top: -1%; left: 0%; width: 310px').d-none.d-xl-block
               .row.align-items-center.justify-content-end
-                .col-xl-8
+                .col-xl-11
                   p.mb-0.text-white
                     b Los errores de precisión posicional son apreciables dependiendo de la escala de trabajo del proyecto, en escalas pequeñas se puede decir que son imperceptibles, pero en escalas grandes si pueden disminuir la calidad de los datos geográficos y se requiere en muchos casos hacer los ajustes respectivos en campo. 
 
@@ -305,6 +305,6 @@ export default {
 
 <style lang="sass">
 .tarjeta.color-primario
-  p
+  p, em
     color: $color-sistema-texto
 </style>
