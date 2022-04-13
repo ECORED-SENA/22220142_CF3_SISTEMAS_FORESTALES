@@ -5,14 +5,14 @@
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
-        .tarjeta.tarjeta--azul.h-100.d-flex.align-items-center
+        .tarjeta.h-100.d-flex.align-items-center
           figure
-            img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/curso/icono.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Emparejamiento entre término y definición
         p.mb-4 La actividad planteada consiste en relacionar las columnas, en una se deben poner los términos y en la otra las definiciones, el objetivo es que el aprendiz haga la unión entre término y definición y de esta manera haga un repaso de lo estudiado en este componente
-        .tarjeta.tarjeta--azul.p-3
+        .tarjeta.tarjeta--azul.p-3(style="background-color:#FCEFE0;")
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Arrastrar y soltar el término con la definición que corresponde
